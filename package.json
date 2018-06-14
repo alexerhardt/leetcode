@@ -1,0 +1,15 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "leetcode exercises",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^23.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Alex Erhardt",
+  "license": "ISC"
+}
