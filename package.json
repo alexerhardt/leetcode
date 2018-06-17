@@ -4,7 +4,8 @@
   "description": "leetcode exercises",
   "main": "index.js",
   "dependencies": {
-    "jest": "^23.1.0"
+    "jest": "^23.1.0",
+    "underscore": "^1.9.1"
   },
   "devDependencies": {},
   "scripts": {

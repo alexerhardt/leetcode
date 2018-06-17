@@ -31,6 +31,4 @@ var countString = function(str) {
     return resultString;
 };
 
-countAndSay(3);
-
 module.exports = countAndSay;
