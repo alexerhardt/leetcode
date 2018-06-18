@@ -1,10 +1,9 @@
 /**
- * @param {string} s
- * @return {number}
+ * @param {number[]} digits
+ * @return {number[]}
  */
-var lengthOfLastWord = function(s) {
-    var strArr = s.trim().split(/ +/g);
-    return strArr[strArr.length - 1].length;
+var plusOne = function(digits) {
+    
 };
 
-module.exports = lengthOfLastWord;
+module.exports = plusOne;
