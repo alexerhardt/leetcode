@@ -18,6 +18,4 @@ var plusOne = function(digits) {
     return result;
 };
 
-plusOne([1, 0, 0, 0, 0]);
-
 module.exports = plusOne;
