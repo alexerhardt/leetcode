@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "~/dev/leetcode/69.sqrtx/69.main.js"
+            "program": "${workspaceFolder}/39.combinationsum/39.main.js"
         }
     ]
 }
