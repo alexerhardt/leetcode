@@ -1,3 +1,4 @@
+"use strict";
 /**
  * Definition for singly-linked list.
  * class ListNode {
@@ -9,18 +10,17 @@
  *     }
  * }
  */
-
-export class ListNode {
-    val: number;
-    next: ListNode | null;
-    constructor(val?: number, next?: ListNode | null) {
+exports.__esModule = true;
+exports.mergeTwoSortedLists = exports.ListNode = void 0;
+var ListNode = /** @class */ (function () {
+    function ListNode(val, next) {
         this.val = (val === undefined ? 0 : val);
         this.next = (next === undefined ? null : next);
     }
-}
-
-export type ListNodeType = typeof ListNode;
-
-export function mergeTwoSortedLists(list1: ListNode | null, list2: ListNode | null): ListNode | null {
+    return ListNode;
+}());
+exports.ListNode = ListNode;
+function mergeTwoSortedLists(list1, list2) {
     return null;
 }
+exports.mergeTwoSortedLists = mergeTwoSortedLists;
