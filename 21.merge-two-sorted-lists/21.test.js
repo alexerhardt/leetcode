@@ -22,11 +22,12 @@ test("Merges two lists of the same length", function () {
     var merged = (0, _21_main_1.mergeTwoSortedLists)(listA, listB);
     var expected = [1, 1, 2, 3, 4, 4];
     var cur = merged;
-    // Sort this out
-    for (var i = 0; i < expected.length; i++) {
-        expect(cur === null || cur === void 0 ? void 0 : cur.val).toBe(expected[i]);
-        if ((cur === null || cur === void 0 ? void 0 : cur.next) !== null) {
-            cur = cur.next;
-        }
+    var i = 0;
+    console.log('starting cur: ', cur);
+    while (cur !== null && i < expected.length - 1) {
+        expect(cur.val).toBe(expected[i]);
+        cur = cur.next;
+        i++;
     }
+    expect(i).toBe(expected.length - 1);
 });
