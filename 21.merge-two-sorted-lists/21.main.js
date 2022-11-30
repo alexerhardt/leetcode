@@ -21,6 +21,28 @@ var ListNode = /** @class */ (function () {
 }());
 exports.ListNode = ListNode;
 function mergeTwoSortedLists(list1, list2) {
-    return null;
+    var ret = new ListNode();
+    var cur = ret;
+    while (list1 !== null || list2 !== null) {
+        if (list1 === null) {
+            cur.val = list2.val;
+            list2 = list2.next;
+        }
+        else if (list2 === null) {
+            cur.val = list1.val;
+            list1 = list1.next;
+        }
+        else if (list1.val <= list2.val) {
+            cur.val = list1.val;
+            list1 = list1.next;
+        }
+        else if (list1.val > list2.val) {
+            cur.val = list2.val;
+            list2 = list2.next;
+        }
+        cur.next = new ListNode();
+        cur = cur.next;
+    }
+    return ret;
 }
 exports.mergeTwoSortedLists = mergeTwoSortedLists;

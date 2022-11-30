@@ -21,6 +21,7 @@ test("Merges two lists of the same length", () => {
     const listB = createLinkedListFromArray([1, 3, 4]);
 
     const merged = mergeTwoSortedLists(listA, listB);
+    console.log('merged: ', merged);
 
     const expected = [1,1,2,3,4,4];
 

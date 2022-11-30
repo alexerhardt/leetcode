@@ -20,14 +20,48 @@ test("Merges two lists of the same length", function () {
     var listA = createLinkedListFromArray([1, 2, 4]);
     var listB = createLinkedListFromArray([1, 3, 4]);
     var merged = (0, _21_main_1.mergeTwoSortedLists)(listA, listB);
+    console.log('merged: ', merged);
     var expected = [1, 1, 2, 3, 4, 4];
     var cur = merged;
     var i = 0;
-    console.log('starting cur: ', cur);
     while (cur !== null && i < expected.length - 1) {
         expect(cur.val).toBe(expected[i]);
         cur = cur.next;
         i++;
     }
     expect(i).toBe(expected.length - 1);
+});
+test("Merges lists of different lengths", function () {
+    var listA = createLinkedListFromArray([1, 7, 10]);
+    var listB = createLinkedListFromArray([2, 5]);
+    var merged = (0, _21_main_1.mergeTwoSortedLists)(listA, listB);
+    var expected = [1, 2, 5, 7, 10];
+    var cur = merged;
+    var i = 0;
+    while (cur !== null && i < expected.length - 1) {
+        expect(cur.val).toBe(expected[i]);
+        cur = cur.next;
+        i++;
+    }
+    expect(i).toBe(expected.length - 1);
+});
+test("Merges an empty list with a non-empty list", function () {
+    var listA = createLinkedListFromArray([3]);
+    var listB = createLinkedListFromArray([]);
+    var merged = (0, _21_main_1.mergeTwoSortedLists)(listA, listB);
+    var expected = [3];
+    var cur = merged;
+    var i = 0;
+    while (cur !== null && i < expected.length - 1) {
+        expect(cur.val).toBe(expected[i]);
+        cur = cur.next;
+        i++;
+    }
+    expect(i).toBe(expected.length - 1);
+});
+test("Merges two empty lists", function () {
+    var listA = createLinkedListFromArray([]);
+    var listB = createLinkedListFromArray([]);
+    var merged = (0, _21_main_1.mergeTwoSortedLists)(listA, listB);
+    expect(merged).toBe(null);
 });

@@ -22,5 +22,25 @@ export class ListNode {
 export type ListNodeType = typeof ListNode;
 
 export function mergeTwoSortedLists(list1: ListNode | null, list2: ListNode | null): ListNode | null {
-    return null;
+    const ret = new ListNode();
+    let cur = ret;
+    while (list1 !== null || list2 !== null) {
+        if (list1 === null) {
+            cur.val = list2.val;
+            list2 = list2.next;
+        } else if (list2 === null) {
+            cur.val = list1.val;
+            list1 = list1.next;
+        }
+        else if (list1.val <= list2.val) {
+            cur.val = list1.val;
+            list1 = list1.next;
+        } else if (list1.val > list2.val) {
+            cur.val = list2.val;
+            list2 = list2.next;
+        }
+        cur.next = new ListNode();
+        cur = cur.next;
+    }
+    return ret;
 }
