@@ -21,6 +21,9 @@ var ListNode = /** @class */ (function () {
 }());
 exports.ListNode = ListNode;
 function mergeTwoSortedLists(list1, list2) {
+    if (list1 === null && list2 === null) {
+        return null;
+    }
     var ret = new ListNode();
     var cur = ret;
     while (list1 !== null || list2 !== null) {
@@ -40,8 +43,13 @@ function mergeTwoSortedLists(list1, list2) {
             cur.val = list2.val;
             list2 = list2.next;
         }
-        cur.next = new ListNode();
-        cur = cur.next;
+        if (list1 !== null || list2 !== null) {
+            cur.next = new ListNode();
+            cur = cur.next;
+        }
+        else {
+            cur.next = null;
+        }
     }
     return ret;
 }

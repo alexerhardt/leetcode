@@ -30,6 +30,7 @@ test("Merges two lists of the same length", function () {
         i++;
     }
     expect(i).toBe(expected.length - 1);
+    expect(cur === null || cur === void 0 ? void 0 : cur.next).toBe(null);
 });
 test("Merges lists of different lengths", function () {
     var listA = createLinkedListFromArray([1, 7, 10]);
@@ -44,6 +45,7 @@ test("Merges lists of different lengths", function () {
         i++;
     }
     expect(i).toBe(expected.length - 1);
+    expect(cur === null || cur === void 0 ? void 0 : cur.next).toBe(null);
 });
 test("Merges an empty list with a non-empty list", function () {
     var listA = createLinkedListFromArray([3]);
@@ -58,6 +60,7 @@ test("Merges an empty list with a non-empty list", function () {
         i++;
     }
     expect(i).toBe(expected.length - 1);
+    expect(cur === null || cur === void 0 ? void 0 : cur.next).toBe(null);
 });
 test("Merges two empty lists", function () {
     var listA = createLinkedListFromArray([]);

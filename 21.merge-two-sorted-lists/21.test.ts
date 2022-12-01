@@ -35,6 +35,7 @@ test("Merges two lists of the same length", () => {
     }
 
     expect(i).toBe(expected.length - 1);
+    expect(cur?.next).toBe(null);
 })
 
 test("Merges lists of different lengths", () => {
@@ -54,6 +55,7 @@ test("Merges lists of different lengths", () => {
     }
 
     expect(i).toBe(expected.length - 1);
+    expect(cur?.next).toBe(null);
 })
 
 test("Merges an empty list with a non-empty list", () => {
@@ -73,6 +75,7 @@ test("Merges an empty list with a non-empty list", () => {
     }
 
     expect(i).toBe(expected.length - 1);
+    expect(cur?.next).toBe(null);
 })
 
 test("Merges two empty lists", () => {
