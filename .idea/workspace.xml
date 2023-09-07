@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="218232b8-8af3-4fba-8c47-1ff63f67efaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1768.merge-strings-alt/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -29,6 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
@@ -47,22 +52,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "javascript.nodejs.core.library.configured.version": "16.13.1",
-    "javascript.nodejs.core.library.typings.version": "16.18.3",
-    "last_opened_file_path": "/Users/Alex/Developer/leetcode",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/21.alt" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/21.merge-two-sorted-lists" />
       <recent name="$PROJECT_DIR$/13.roman-to-int" />
     </key>
   </component>
@@ -89,22 +96,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_pattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/15.3sum/test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests in test.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,6 +109,22 @@
       <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/34.find-first-last/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="/usr/local/bin/python3.8" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/15.3sum/test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -140,76 +147,28 @@
       <workItem from="1573592779258" duration="656000" />
       <workItem from="1626591335042" duration="39831000" />
       <workItem from="1626715804685" duration="1463000" />
-      <workItem from="1669368555208" duration="3574000" />
+      <workItem from="1669368555208" duration="20329000" />
+      <workItem from="1693640830929" duration="301000" />
+      <workItem from="1693641228120" duration="2305000" />
+      <workItem from="1693643778410" duration="3339000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="645" y="179" width="2232" height="1144" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1626713941126">
-      <screen x="0" y="0" width="3440" height="1440" />
-    </state>
-    <state x="645" y="179" width="2232" height="1144" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.874.1440.900/0.0.3440.1440@0.0.3440.1440" timestamp="1626713941126" />
-    <state x="270" y="112" width="934" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-900.-312.900.1577@0.0.1440.900" timestamp="1626631269776" />
-    <state x="270" y="112" width="934" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-900.-335.900.1600@0.0.1440.900" timestamp="1626631182486" />
-    <state width="3398" height="335" key="GridCell.Tab.0.bottom" timestamp="1626716878343">
-      <screen x="0" y="0" width="3440" height="1440" />
-    </state>
-    <state width="3398" height="335" key="GridCell.Tab.0.bottom/-1440.874.1440.900/0.0.3440.1440@0.0.3440.1440" timestamp="1626716878343" />
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-900.-312.900.1577@0.0.1440.900" timestamp="1626632191614" />
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/-900.-335.900.1600@0.0.1440.900" timestamp="1626634481948" />
-    <state width="3398" height="335" key="GridCell.Tab.0.center" timestamp="1626716878342">
-      <screen x="0" y="0" width="3440" height="1440" />
-    </state>
-    <state width="3398" height="335" key="GridCell.Tab.0.center/-1440.874.1440.900/0.0.3440.1440@0.0.3440.1440" timestamp="1626716878342" />
-    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-900.-312.900.1577@0.0.1440.900" timestamp="1626632191610" />
-    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900/-900.-335.900.1600@0.0.1440.900" timestamp="1626634481947" />
-    <state width="3398" height="335" key="GridCell.Tab.0.left" timestamp="1626716878341">
-      <screen x="0" y="0" width="3440" height="1440" />
-    </state>
-    <state width="3398" height="335" key="GridCell.Tab.0.left/-1440.874.1440.900/0.0.3440.1440@0.0.3440.1440" timestamp="1626716878341" />
-    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-900.-312.900.1577@0.0.1440.900" timestamp="1626632191608" />
-    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900/-900.-335.900.1600@0.0.1440.900" timestamp="1626634481946" />
-    <state width="3398" height="335" key="GridCell.Tab.0.right" timestamp="1626716878342">
-      <screen x="0" y="0" width="3440" height="1440" />
-    </state>
-    <state width="3398" height="335" key="GridCell.Tab.0.right/-1440.874.1440.900/0.0.3440.1440@0.0.3440.1440" timestamp="1626716878342" />
-    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-900.-312.900.1577@0.0.1440.900" timestamp="1626632191613" />
-    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900/-900.-335.900.1600@0.0.1440.900" timestamp="1626634481947" />
-    <state width="3398" height="335" key="GridCell.Tab.1.bottom" timestamp="1626716878346">
-      <screen x="0" y="0" width="3440" height="1440" />
-    </state>
-    <state width="3398" height="335" key="GridCell.Tab.1.bottom/-1440.874.1440.900/0.0.3440.1440@0.0.3440.1440" timestamp="1626716878346" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900/-900.-312.900.1577@0.0.1440.900" timestamp="1626632191617" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900/-900.-335.900.1600@0.0.1440.900" timestamp="1626634481950" />
-    <state width="3398" height="335" key="GridCell.Tab.1.center" timestamp="1626716878345">
-      <screen x="0" y="0" width="3440" height="1440" />
-    </state>
-    <state width="3398" height="335" key="GridCell.Tab.1.center/-1440.874.1440.900/0.0.3440.1440@0.0.3440.1440" timestamp="1626716878345" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900/-900.-312.900.1577@0.0.1440.900" timestamp="1626632191616" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900/-900.-335.900.1600@0.0.1440.900" timestamp="1626634481949" />
-    <state width="3398" height="335" key="GridCell.Tab.1.left" timestamp="1626716878344">
-      <screen x="0" y="0" width="3440" height="1440" />
-    </state>
-    <state width="3398" height="335" key="GridCell.Tab.1.left/-1440.874.1440.900/0.0.3440.1440@0.0.3440.1440" timestamp="1626716878344" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900/-900.-312.900.1577@0.0.1440.900" timestamp="1626632191615" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900/-900.-335.900.1600@0.0.1440.900" timestamp="1626634481949" />
-    <state width="3398" height="335" key="GridCell.Tab.1.right" timestamp="1626716878345">
-      <screen x="0" y="0" width="3440" height="1440" />
-    </state>
-    <state width="3398" height="335" key="GridCell.Tab.1.right/-1440.874.1440.900/0.0.3440.1440@0.0.3440.1440" timestamp="1626716878345" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900/-900.-312.900.1577@0.0.1440.900" timestamp="1626632191616" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900/-900.-335.900.1600@0.0.1440.900" timestamp="1626634481950" />
-    <state x="270" y="89" key="SettingsEditor" timestamp="1626591705563">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="270" y="89" key="SettingsEditor/0.0.1440.900/-900.-335.900.1600@0.0.1440.900" timestamp="1626591705563" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1626632238852">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-900.-312.900.1577@0.0.1440.900" timestamp="1626632238852" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-900.-335.900.1600@0.0.1440.900" timestamp="1626630574023" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/21.merge-two-sorted-lists/21.main.js" />
+        <option value="$PROJECT_DIR$/21.merge-two-sorted-lists/21.test.js" />
+        <option value="$PROJECT_DIR$/21.merge-two-sorted-lists/21.main.js" />
+        <option value="$PROJECT_DIR$/21.merge-two-sorted-lists/21.test.js" />
+        <option value="$PROJECT_DIR$/21.merge-two-sorted-lists/21.main.js" />
+        <option value="$PROJECT_DIR$/21.merge-two-sorted-lists/21.test.js" />
+        <option value="$PROJECT_DIR$/21.merge-two-sorted-lists/21.main.js" />
+        <option value="$PROJECT_DIR$/21.merge-two-sorted-lists/21.test.js" />
+        <option value="$PROJECT_DIR$/21.merge-two-sorted-lists/21.main.js" />
+        <option value="$PROJECT_DIR$/21.merge-two-sorted-lists/21.test.js" />
+      </list>
+    </option>
   </component>
 </project>
