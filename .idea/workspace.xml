@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="218232b8-8af3-4fba-8c47-1ff63f67efaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1768.merge-strings-alt/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="218232b8-8af3-4fba-8c47-1ff63f67efaa" name="Default Changelist" comment="Finish 1768">
+      <change afterPath="$PROJECT_DIR$/1071.greatestcommonstrdiv/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,8 +146,17 @@
       <workItem from="1669368555208" duration="20329000" />
       <workItem from="1693640830929" duration="301000" />
       <workItem from="1693641228120" duration="2305000" />
-      <workItem from="1693643778410" duration="3339000" />
+      <workItem from="1693643778410" duration="5383000" />
     </task>
+    <task id="LOCAL-00001" summary="Finish 1768">
+      <option name="closed" value="true" />
+      <created>1694077323951</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694077323951</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,5 +175,9 @@
         <option value="$PROJECT_DIR$/21.merge-two-sorted-lists/21.test.js" />
       </list>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finish 1768" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish 1768" />
   </component>
 </project>
